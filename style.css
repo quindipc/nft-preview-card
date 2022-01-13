@@ -28,7 +28,7 @@ body {
     width: 430px;
   }
 
-  .card-img-top{
+  .card-img-top {
     border-radius: 10px 10px 10px 10px;
     height:23em;
     margin-top: 15px;
@@ -36,10 +36,10 @@ body {
   }
   
   
-  .card-title{
+  .card-title {
     font-family: 'Outfit', sans-serif;
     font-weight: 600;
-    color:white;
+    color: white;
     display: flex;
     justify-content: flex-start;
     margin-left: 1.4em;
