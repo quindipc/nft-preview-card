@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    height: 100vh;
+    max-width: 1440px;
+    background-color: hsl(217, 54%, 11%);
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    float: none;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    background-color: hsl(216, 50%, 16%);
+    height: 375px;
+    max-width: 1440px;
+    position: fixed;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 430px;
+  }
+
+  .card-img-top{
+    border-radius: 10px 10px 10px 10px;
+    height:23em;
+    margin-top: 15px;
+    width: 25em;
+  }
+  
+  
+  .card-title{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    color:white;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1.4em;
+    line-height: 1.5;
+  }
+
+  .card-text {
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+    line-height: 1.5;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1.6em;
+    margin-top: 1em;
+  }
+
+  .row {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 1em;
+  }
+
+  .col-1 {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    justify-items: flex-start;
+    margin-right: 9.7em;
+  }
+
+  .icon-eq {
+      margin-right: .5em;
+  }
+
+  .col-2 {
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 1.8em;
+  }
+
+  .icon-clock {
+      margin-right: .5em;
+  }
+ 
+  hr.solid {
+    border-top: 0.5px solid hsl(215, 32%, 27%);
+    max-width: 25em;
+    margin-top: 3em;
+}
+.row2 {
+    display:flex;
+    justify-items: space-evenly;
+    margin-left: 1.8em;
+    margin-top: 2em;
+    margin-bottom: 5em;
+  }
+.avatar {
+    height: 40px;
+margin-right: .5em;
+}
+.creation {
+    font-weight: 300;
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+}
+.jules {
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+}
